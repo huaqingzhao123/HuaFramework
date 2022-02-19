@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
-namespace HuaFramework.ResourcesManager
+namespace HuaFramework.ResourcesRef
 {
     public class HotUpdateConfig
     {
@@ -17,7 +17,7 @@ namespace HuaFramework.ResourcesManager
         /// </summary>
         public virtual string LocalResversionFilePath
         {
-            get { return Application.streamingAssetsPath + "/AssetBundles/" +HotResUtil.GetPlatformName() + "/" + HotUpdateManager.ResVersionName; }
+            get { return Application.streamingAssetsPath + "/AssetBundles/" + HotResUtil.GetPlatformName() + "/" + HotUpdateManager.ResVersionName; }
         }
 
         /// <summary>
@@ -40,7 +40,7 @@ namespace HuaFramework.ResourcesManager
         }
         public virtual string RemoteResVersionPath
         {
-            get { return Application.dataPath + "/HuaFramework/Framework/HotFixUpdate/Remote/"+HotUpdateManager.ResVersionName; }
+            get { return Application.dataPath + "/HuaFramework/Framework/HotFixUpdate/Remote/" + HotUpdateManager.ResVersionName; }
         }
         /// <summary>
         /// 读取本地数据中的ResVersion文件
@@ -59,7 +59,7 @@ namespace HuaFramework.ResourcesManager
 
         public virtual IEnumerator GetStreamingAssetsResVersion(Action<ResVersion> onGetLocalResVersion)
         {
-            var resVersionPath = LocalAssetBundleFolder +HotUpdateManager.ResVersionName;
+            var resVersionPath = LocalAssetBundleFolder + HotUpdateManager.ResVersionName;
             WWW www = new WWW(resVersionPath);
             yield return www;
             var resVersion = JsonUtility.FromJson<ResVersion>(www.text);
@@ -87,7 +87,8 @@ namespace HuaFramework.ResourcesManager
                 var tempPath = TempAssetBundlePath + assetBundle;
                 File.WriteAllBytes(tempPath, bytes);
             }
-            downloadDone?.Invoke();
+            if (downloadDone != null)
+                downloadDone.Invoke();
             CommonUtil.OpenSpecificDirectory(Application.persistentDataPath);
         }
         /// <summary>

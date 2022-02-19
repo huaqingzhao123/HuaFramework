@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿#if  UNITY_EDITOR
 using Sirenix.OdinInspector.Editor;
 using Sirenix.Utilities;
 using Sirenix.Utilities.Editor;
@@ -182,3 +182,4 @@ public class ConfigCreator
     }
 }
 
+#endif

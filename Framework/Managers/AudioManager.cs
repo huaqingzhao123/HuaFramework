@@ -1,5 +1,6 @@
 ﻿using HuaFramework.Singleton;
 using HuaFramework.Utility;
+using HuaFramework.Utility.ObjectPool;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -61,6 +62,18 @@ namespace HuaFramework.Managers
                 _audioCaches.Add(audioName, clip);
                 return clip;
         }
+
+        /// <summary>
+        /// 异步播放音效
+        /// </summary>
+        /// <param name="audioPah"></param>
+        /// <param name="isLoop"></param>
+        /// <param name="callback"></param>
+        private void AsyncPlayAudio(string audioPah,bool isLoop, Action callback)
+        {
+
+        }
+
         public void InitPool()
         {
             if (_audioSourcePool == null)

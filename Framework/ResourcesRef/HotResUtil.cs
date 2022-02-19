@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace HuaFramework.ResourcesManager
+namespace HuaFramework.ResourcesRef
 {
 
     /// <summary>
@@ -74,6 +74,18 @@ namespace HuaFramework.ResourcesManager
                 default:
                     return "Windows";
             }
+        }
+
+        /// <summary>
+        ///本地AB包根目录
+        /// </summary>
+        public static string LocalAssetBundleFolder
+        {
+            get { return Application.streamingAssetsPath + "/AssetBundles/" + GetPlatformName() + "/"; }
+        }
+        public static string LocalResversionFilePath
+        {
+            get { return Application.streamingAssetsPath + "/AssetBundles/" + GetPlatformName() + "/" + HotUpdateManager.ResVersionName; }
         }
 #endif
         private static string RuntimeGetPlatformName(RuntimePlatform runtimePlatform)

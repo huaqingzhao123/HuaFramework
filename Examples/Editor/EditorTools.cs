@@ -5,8 +5,9 @@ using System;
 using UnityEditor;
 using System.IO;
 using HuaFramework.Managers;
-using HuaFramework.ResourcesManager;
+using HuaFramework.ResourcesRef;
 using System.Linq;
+using HuaFramework.Unity;
 
 namespace HuaFramework.Utility
 {
@@ -16,7 +17,7 @@ namespace HuaFramework.Utility
     public class EditorTools
     {
 
-        [MenuItem("HuaFramework/Tools/功能测试 %l",false,0)]
+        [MenuItem("HuaFramework/Tools/功能测试",false,0)]
         private static void Test()
         {
             //Debug.LogError(MathfUtil.GetRandomElement(1, 2, 3));
@@ -47,11 +48,32 @@ namespace HuaFramework.Utility
             CommonUtil.OpenSpecificDirectory(Application.dataPath);
         }
         [MenuItem("HuaFramework/Tools/4.自动导出Package", false, 4)]
-        private static void MenuClicked()
+        private static void ExportPackageAll()
         {
-            var assetsPath = "Assets/HuaFramework";
+            var assetsExamplePath = "Assets/HuaFramework/Examples";
+            var assetsPluginsPath= "Assets/HuaFramework/Plugins";
+            var dllRootPath = UnityTools.Library + "/ScriptAssemblies/";
+            var dllPath = dllRootPath + "HuaFramework.dll";
+            var pdbPath = dllRootPath + "HuaFramework.pdb";
+            var editorDllPath = dllRootPath + "HuaFramework.dll";
+            var editorPdbPath = dllRootPath + "HuaFramework.pdb";
+            var newDllPath = assetsPluginsPath + "/HuaFramework.dll";
+            var newPdbPath = assetsPluginsPath + "/HuaFramework.pdb";
+            var newEditorDllPath = assetsPluginsPath + "/Editor/HuaFrameworkEditor.dll";
+            var newEditorPdbPath = assetsPluginsPath + "/Editor//HuaFrameworkEditor.pdb";
+            File.Copy(dllPath, newDllPath);
+            File.Copy(pdbPath,newPdbPath);
+            File.Copy(editorDllPath, newEditorDllPath);
+            File.Copy(editorPdbPath, newEditorPdbPath);
+            AssetDatabase.Refresh();
             var fileName = Application.dataPath + "/" + ExportPackageUtil.GetPackageName() + ".unitypackage";
-            EditorUtil.ExportPackage(assetsPath, fileName);
+            EditorUtil.ExportPackage(fileName,assetsExamplePath, assetsPluginsPath);
+            File.Delete(newDllPath);
+            File.Delete(newPdbPath);
+            File.Delete(newEditorDllPath);
+            File.Delete(newEditorPdbPath);
+            AssetDatabase.Refresh();
+            AssetDatabase.WriteImportSettingsIfDirty(assetsPluginsPath);
         }
         [MenuItem("HuaFramework/Tools/6.Menuitem复用", false, 6)]
         private static void MenuitemReuse()
@@ -59,7 +81,7 @@ namespace HuaFramework.Utility
             EditorUtil.ExcuteMenuItem("HuaFramework/Tools/4.自动导出Package");
             EditorUtil.ExcuteMenuItem("HuaFramework/Tools/5.打开data目录");
         }
-        [MenuItem("HuaFramework/Tools/7.自定义快捷键 %e", false, 7)]
+        [MenuItem("HuaFramework/Tools/7.自定义快捷键导完整包 %e", false, 7)]
         private static void QuicExcuteMenuitem()
         {
             Debug.Log("%e是指定快捷键为Ctrl+E");
@@ -84,7 +106,7 @@ namespace HuaFramework.Utility
 
         private static void PackAssetBundle()
         {
-            var path = HotUpdateManager.Instance.HotUpdateConfig.LocalAssetBundleFolder;
+            var path = HotResUtil.LocalAssetBundleFolder;
             if (!Directory.Exists(path))
             {
                 Directory.CreateDirectory(path);
@@ -92,13 +114,62 @@ namespace HuaFramework.Utility
             UnityEditor.BuildPipeline.BuildAssetBundles(path, BuildAssetBundleOptions.ChunkBasedCompression, EditorUserBuildSettings.activeBuildTarget);
 
             //生成版本信息文件
-            var resVersionPath = HotUpdateManager.Instance.HotUpdateConfig.LocalAssetBundleFolder + HotUpdateManager.ResVersionName;
+            var resVersionPath = HotResUtil.LocalResversionFilePath;
             var allAssetBundles = AssetDatabase.GetAllAssetBundleNames().ToList();
             var resVersion = new ResVersion() { Version = 5,AllAssetBundles= allAssetBundles};
             var resVersionJson = JsonUtility.ToJson(resVersion,true);
             File.WriteAllText(resVersionPath,resVersionJson);
             AssetDatabase.Refresh();
         }
+
+        [Obsolete]
+        [MenuItem("HuaFramework/Tools/11.自动导出不含odin", false, 11)]
+        private static void ExportPackageCommon()
+        {
+            var assetsPluginsPath = "Assets/HuaFramework/Framework/Plugins";
+            var odinConfigPath= "Assets/HuaFramework/Framework/OdinConfigs";
+            File.Move(odinConfigPath, odinConfigPath + "~");
+            AssetDatabase.Refresh();
+            var dllRootPath = UnityTools.Library + "/ScriptAssemblies/";
+            var dllPath = dllRootPath + "HuaFramework.dll";
+            var pdbPath = dllRootPath + "HuaFramework.pdb";
+            var editorDllPath = dllRootPath + "HuaFramework.dll";
+            var editorPdbPath = dllRootPath + "HuaFramework.pdb";
+            var newDllPath = assetsPluginsPath + "/HuaFramework.dll";
+            var newPdbPath = assetsPluginsPath + "/HuaFramework.pdb";
+            var newEditorDllPath = assetsPluginsPath + "/Editor/HuaFrameworkEditor.dll";
+            var newEditorPdbPath = assetsPluginsPath + "/Editor//HuaFrameworkEditor.pdb";
+            File.Copy(dllPath, newDllPath);
+            File.Copy(pdbPath, newPdbPath);
+            File.Copy(editorDllPath, newEditorDllPath);
+            File.Copy(editorPdbPath, newEditorPdbPath);
+            AssetDatabase.Refresh();
+            var fileName = Application.dataPath + "/" + ExportPackageUtil.GetPackageName() + ".unitypackage";
+            EditorUtil.ExportPackage(assetsPluginsPath, fileName);
+            File.Delete(newDllPath);
+            File.Delete(newPdbPath);
+            File.Delete(newEditorDllPath);
+            File.Delete(newEditorPdbPath);
+            File.Move(odinConfigPath + "~",odinConfigPath);
+            AssetDatabase.Refresh();
+            AssetDatabase.WriteImportSettingsIfDirty(assetsPluginsPath);
+        }
+        [MenuItem("HuaFramework/Tools/12.自动导出框架源码工程 %l", false, 11)]
+        private static void ExportFrameworkPackage()
+        {
+            var frameworkPath = "Assets/HuaFramework";
+            var fileName = Application.dataPath + "/" + ExportPackageUtil.GetSourcePackageName() + ".unitypackage";
+            EditorUtil.ExportPackage(frameworkPath, fileName);
+            AssetDatabase.Refresh();
+            EditorUtil.ExcuteMenuItem("HuaFramework/Tools/5.打开data目录");
+        }
+        //[MenuItem("HuaFramework/Tools/13.导出框架源码工程 ", false, 12)]
+        //private static void QuicExcuteMenuitemCommon()
+        //{
+        //    EditorUtil.ExcuteMenuItem("HuaFramework/Tools/12.自动导出框架源码工程");
+        //    EditorUtil.ExcuteMenuItem("HuaFramework/Tools/5.打开data目录");
+
+        //}
     }
 }
 

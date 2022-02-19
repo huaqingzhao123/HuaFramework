@@ -98,7 +98,8 @@ namespace HuaFramework.Unity
         private IEnumerator DelayCoroutine(float time, Action action)
         {
             yield return new WaitForSeconds(time);
-            action?.Invoke();
+            if (action != null)
+                action.Invoke();
         }
         private void OnDestroy()
         {

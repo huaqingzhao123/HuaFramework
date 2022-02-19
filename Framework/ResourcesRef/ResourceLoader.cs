@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace HuaFramework.ResourcesManager
+namespace HuaFramework.ResourcesRef
 {
     /// <summary>
     /// 资源管理类细分，存储(引用)通过此类直接加载或者从全局缓存拿过来的资源

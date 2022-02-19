@@ -48,7 +48,8 @@ namespace HuaFramework.MessageCenter
         public static void SendMessage(string messageName)
         {
             if (!_messagesData.ContainsKey(messageName)) return;
-            _messagesData[messageName]?.Invoke();
+            if (_messagesData[messageName] != null)
+                _messagesData[messageName].Invoke();
         }
 
     }

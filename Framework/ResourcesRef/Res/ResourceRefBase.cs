@@ -1,9 +1,8 @@
-﻿using HuaFramework.Interface;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace HuaFramework.ResourcesManager {
+namespace HuaFramework.ResourcesRef {
     public class ResourceRefBase : IResourceRefCount
     {
         public int RefCount { get; private set; }

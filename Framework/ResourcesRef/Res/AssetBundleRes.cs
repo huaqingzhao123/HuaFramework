@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace HuaFramework.ResourcesManager
+namespace HuaFramework.ResourcesRef
 {
     public class AssetBundleRes : ResData
     {
@@ -43,7 +43,7 @@ namespace HuaFramework.ResourcesManager
                 _resourceLoader.LoadAssetsSync<AssetBundle>(item);
             }
             //不是SimulationMode状态再真正加载AssetBundle资源
-            if (!ResManager.Instance.IsSimulationModeLogic)
+            if (!ResManager.IsSimulationModeLogic)
             {
                 AssetBundle = AssetBundle.LoadFromFile(HotResUtil.GetOneAssetBundlePath(Name));
             }
@@ -56,7 +56,7 @@ namespace HuaFramework.ResourcesManager
             AsyncLoadDependency(() =>
             {
                 //不是SimulationMode不加载AssetBundle
-                if (ResManager.Instance.IsSimulationModeLogic)
+                if (ResManager.IsSimulationModeLogic)
                 {
                     AssetState = AssetState.Loaded;
                 }
@@ -81,7 +81,10 @@ namespace HuaFramework.ResourcesManager
             //异步加载依赖
             var dependencyInfos = AssetBundleManifestData.Instace.GetDirectDependencyName(Name);
             if (dependencyInfos.Length == 0)
-                onLoad?.Invoke();
+            {
+                if(onLoad!=null)
+                    onLoad.Invoke();
+            }
             foreach (var item in dependencyInfos)
             {
                 //加载依赖，所有依赖只负责加载直接引用的依赖，本质为递归操作
@@ -91,7 +94,8 @@ namespace HuaFramework.ResourcesManager
                     //所有依赖加载完毕,调用回调
                     if (count == dependencyInfos.Length)
                     {
-                        onLoad?.Invoke();
+                        if (onLoad != null)
+                            onLoad.Invoke();
                     }
                 });
             }

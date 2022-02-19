@@ -1,6 +1,6 @@
 ﻿namespace HuaFramework.Managers
 {
-    using HuaFramework.ResourcesManager;
+    using HuaFramework.ResourcesRef;
     using HuaFramework.Singleton;
     using System.Collections;
     using System.Collections.Generic;
@@ -12,8 +12,8 @@
 
 #if UNITY_EDITOR
         private const string SimulationModeKey = "Simulation Mode";
-        private int _simulationMode = -1;
-        public bool SimulationMode
+        private static int _simulationMode = -1;
+        public static bool SimulationMode
         {
             get
             {
@@ -29,7 +29,7 @@
 
         }
 #endif
-        public bool IsSimulationModeLogic
+        public static bool IsSimulationModeLogic
         {
             get
             {

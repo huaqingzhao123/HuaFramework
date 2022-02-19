@@ -12,6 +12,9 @@ namespace HuaFramework.Utility
         {
             return "HuaFramework" + DateTime.Now.ToString("_yyyyMMdd_HH");
         }
-
+        public static string GetSourcePackageName()
+        {
+            return "HuaFrameworkSource" + DateTime.Now.ToString("_yyyyMMdd_HH");
+        }
     }
 }

@@ -6,7 +6,7 @@ using UnityEditor;
 #endif
 using HuaFramework.Managers;
 
-namespace HuaFramework.ResourcesManager
+namespace HuaFramework.ResourcesRef
 {
     public class AssetBundleSimulationMode
     {
@@ -15,8 +15,8 @@ namespace HuaFramework.ResourcesManager
 
         public static bool SimulationMode
         {
-            get { return ResManager.Instance.SimulationMode; }
-            set { ResManager.Instance.SimulationMode = value; }
+            get { return ResManager.SimulationMode; }
+            set { ResManager.SimulationMode = value; }
         }
 
         [MenuItem(SimulationPath)]

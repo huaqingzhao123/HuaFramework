@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace HuaFramework.ResourcesManager
+namespace HuaFramework.ResourcesRef
 {
 
     public class AssetBundleManifestData : Singleton<AssetBundleManifestData>
@@ -19,7 +19,7 @@ namespace HuaFramework.ResourcesManager
 
         public void Load()
         {
-            if (ResManager.Instance.IsSimulationModeLogic)
+            if (ResManager.IsSimulationModeLogic)
             {
 #if UNITY_EDITOR
                 var allAssetBundle = UnityEditor.AssetDatabase.GetAllAssetBundleNames();
@@ -70,13 +70,13 @@ namespace HuaFramework.ResourcesManager
 
         public string[] GetDirectDependencyName(string assetBundleName)
         {
-            if (ResManager.Instance.IsSimulationModeLogic)
+            if (ResManager.IsSimulationModeLogic)
             {
                 return AllAssetBundles
                     .Find((assetBundle) => assetBundle.Name == assetBundleName)
                     .DependenciesAssetBundleNames;
             }
-            return _assetBundleManifest.GetAllDependencies(assetBundleName);
+            return _assetBundleManifest.GetDirectDependencies(assetBundleName);
         }
     }
 

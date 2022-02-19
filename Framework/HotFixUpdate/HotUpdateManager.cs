@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-namespace HuaFramework.ResourcesManager
+namespace HuaFramework.ResourcesRef
 {
     /// <summary>
     /// 资源状态
@@ -41,7 +41,7 @@ namespace HuaFramework.ResourcesManager
 
         public HotUpdateConfig HotUpdateConfig
         {
-            get;set;
+            get; set;
         }
         private void Awake()
         {
@@ -49,11 +49,12 @@ namespace HuaFramework.ResourcesManager
         }
         public void CheckState(Action done)
         {
-            var peisistentResVersion =HotUpdateConfig.LoadHotUpdateAssetBundleFolderResVersion();
-            if (peisistentResVersion==null)
+            var peisistentResVersion = HotUpdateConfig.LoadHotUpdateAssetBundleFolderResVersion();
+            if (peisistentResVersion == null)
             {
                 _resState = ResState.NerverUpdate;
-                done?.Invoke();
+                if (done != null)
+                    done.Invoke();
             }
             else
             {
@@ -68,7 +69,8 @@ namespace HuaFramework.ResourcesManager
                     {
                         _resState = ResState.Overrided;
                     }
-                    done?.Invoke();
+                    if (done != null)
+                        done.Invoke();
                 }));
 
             }
@@ -120,7 +122,8 @@ namespace HuaFramework.ResourcesManager
                 RepalceLocalRes();
                 _resState = ResState.Updated;
                 Debug.Log("结束更新");
-                onComplete?.Invoke();
+                if (onComplete != null)
+                    onComplete.Invoke();
             });
         }
         /// <summary>

@@ -3,7 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace HuaFramework.ResourcesManager
+namespace HuaFramework.ResourcesRef
 {
     public class AssestRes : ResData
     {
@@ -34,7 +34,7 @@ namespace HuaFramework.ResourcesManager
             AssetState = AssetState.Loading;
             //先加载所属ab包,其实Simulation Mode状态下没有真正加载AB包
             var bundle = _resourceLoader.LoadAssetsSync<AssetBundle>(_mBundleName);
-            if (ResManager.Instance.IsSimulationModeLogic)
+            if (ResManager.IsSimulationModeLogic)
             {
 #if UNITY_EDITOR
                 var path = UnityEditor.AssetDatabase.GetAssetPathsFromAssetBundleAndAssetName(_mBundleName, Name);
@@ -58,7 +58,7 @@ namespace HuaFramework.ResourcesManager
             //先加载bundle，加载完拿到该asset
             _resourceLoader.LoadAssetsAsync<AssetBundle>(_mBundleName, (bundle) =>
             {
-                if (ResManager.Instance.IsSimulationModeLogic)
+                if (ResManager.IsSimulationModeLogic)
                 {
 #if UNITY_EDITOR
                     var path = UnityEditor.AssetDatabase.GetAssetPathsFromAssetBundleAndAssetName(_mBundleName, Name);

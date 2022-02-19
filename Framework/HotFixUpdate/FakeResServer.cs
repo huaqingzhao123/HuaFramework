@@ -5,7 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
-namespace HuaFramework.ResourcesManager
+namespace HuaFramework.ResourcesRef
 {
     [Serializable]
     public class ResVersion

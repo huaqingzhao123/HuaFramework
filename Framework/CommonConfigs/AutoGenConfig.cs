@@ -14,39 +14,12 @@ namespace HuaFramework.Configs
     [Serializable]
     public class AutoGenConfig
     {
-        /// <summary>
-        /// 上一个人和下一个人的间隔时间
-        /// </summary>
-        public float EveryOneDeltaTime;
-        /// <summary>
-        /// 上面第一个按钮相对与初始的偏移量
-        /// </summary>
-        public Vector2Point TheUpOnePos;
-        /// <summary>
-        /// 上面一行的每个按钮的间隔距离
-        /// </summary>
-        public float UpDeltaDistance;
-        /// <summary>
-        /// 下面第一个按钮相对与初始的偏移量
-        /// </summary>
-        public Vector2Point TheDownOnePos;
-        /// <summary>
-        /// 下面一行的每个按钮的间隔距离
-        /// </summary>
-        public float DownDeltaDistance;
-        /// <summary>
-        /// 上面行的按钮数量
-        /// </summary>
-        public int UpRawButtonNumer;
-
-        /// <summary>
-        /// 下面行的按钮数量
-        /// </summary>
-        public int DownRawButtonNumer;
-
+        public int Id;
 #if UNITY_EDITOR
-        [MenuItem("Assets/生成游戏配置模板/趣味蛙跳")]
-        [MenuItem("Tools/生成游戏配置模板/趣味蛙跳")]
+        public static string ConfigName = "\\GameConfig.xml";
+        public static AutoGenConfig musicGameConfig = new AutoGenConfig();
+        [MenuItem("Assets/生成游戏配置模板/自动生成配置")]
+        [MenuItem("Tools/生成游戏配置模板/自动生成配置")]
         public static void SaveTemplate()
         {
             var id = Selection.assetGUIDs;
@@ -61,13 +34,13 @@ namespace HuaFramework.Configs
                 Debug.LogError("选中的不是文件夹，检查！");
                 return;
             }
-            path += "\\LeapFrogConfig.xml";
+            path += ConfigName;
             if (File.Exists(path))
             {
                 Debug.LogError("该路径下已经存在该配置，检查！");
                 return;
             }
-            var config = new AutoGenConfig();
+            var config = musicGameConfig;
             MemoryStream ms = new MemoryStream();
             StreamWriter sw = new StreamWriter(ms, Encoding.GetEncoding("UTF-8"));
             XmlSerializer xz = new XmlSerializer(config.GetType());
@@ -76,16 +49,6 @@ namespace HuaFramework.Configs
             AssetDatabase.Refresh();
             var obj = AssetDatabase.LoadAssetAtPath(path, typeof(object));
             Selection.activeObject = obj;
-            //using (StringWriter sw = new StringWriter())
-            //{
-            //    var config = new AutoGenConfig();
-            //    XmlSerializer xmlSerializer = new XmlSerializer(config.GetType());
-            //    xmlSerializer.Serialize(sw, config);
-            //    File.WriteAllText(path, sw.ToString());
-            //    AssetDatabase.Refresh();
-            //    var obj = AssetDatabase.LoadAssetAtPath(path, typeof(object));
-            //    Selection.activeObject = obj;
-            //}
         }
 #endif
 
