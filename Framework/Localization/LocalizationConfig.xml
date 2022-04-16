@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionaries>
+ <Dictionary Language="en_us">
+ <!-- 音效-->
+   <String Key="voice_award_cat" Value="voice_award_cat_En" />
+   <String Key="voice_award_dog" Value="voice_award_dog_En" />
+   <String Key="voice_award_elephant" Value="voice_award_elephant_En" />
+   <String Key="voice_award_rabbit" Value="voice_award_rabbit_En" />
+   <String Key="voice_knowledge_01" Value="voice_knowledge_01_En" />
+   <String Key="voice_knowledge_02" Value="voice_knowledge_02_En" />
+   <String Key="voice_knowledge_03" Value="voice_knowledge_03_En" />
+   <String Key="voice_knowledge_04" Value="voice_knowledge_04_En" />
+   <String Key="voice_letsaward" Value="voice_letsaward_En" />
+   <String Key="voice_publishtask_01" Value="voice_publishtask_01_En" />
+   <String Key="voice_publishtask_02" Value="voice_publishtask_02_En" />
+   <String Key="voice_publishtask_03" Value="voice_publishtask_03_En" />
+   <String Key="全部人员准备出发，消防车全速前进！" Value="全部人员准备出发，消防车全速前进！_En" />
+   <String Key="小朋友，多吃蔬菜水果才能营养均衡，健康成长哦" Value="小朋友，多吃蔬菜水果才能营养均衡，健康成长哦_En" />
+   <String Key="小朋友，超市购物请不要到处乱跑，以免发生意外" Value="小朋友，超市购物请不要到处乱跑，以免发生意外_En" />
+   <String Key="小朋友，雪糕冷饮虽然好吃，多吃容易拉肚子哦" Value="小朋友，雪糕冷饮虽然好吃，多吃容易拉肚子哦_En" />
+   <String Key="小朋友，零食糖果要少吃，容易发胖伤身体" Value="小朋友，零食糖果要少吃，容易发胖伤身体_En" />
+   <String Key="请小朋友将买的商品放到对应位置的购物车上把" Value="请小朋友将买的商品放到对应位置的购物车上把_En" />
+   <String Key="请小朋友拍击按钮完成扫码付款吧" Value="请小朋友拍击按钮完成扫码付款吧_En" />
+   <String Key="请小朋友拍击按钮完成扫码付款吧" Value="请小朋友拍击按钮完成扫码付款吧_En" />
+ <!--文本-->
+   <String Key="名次" Value="Rank" />
+   <String Key="分数" Value="Score" />
+   <String Key="剩余轮数" Value="round" />
+ </Dictionary>
+</Dictionaries>
