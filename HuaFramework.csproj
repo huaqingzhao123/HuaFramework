@@ -84,10 +84,6 @@
     <Compile Include="Assets\HuaFramework\Framework\HotFixUpdate\HotUpdateManager.cs" />
     <Compile Include="Assets\HuaFramework\Framework\IOC\ClassicIOCContainer.cs" />
     <Compile Include="Assets\HuaFramework\Framework\IOC\IOCContainer.cs" />
-    <Compile Include="Assets\HuaFramework\Framework\IOC\IOCContainner.cs" />
-    <Compile Include="Assets\HuaFramework\Framework\Interface\IPool.cs" />
-    <Compile Include="Assets\HuaFramework\Framework\Interface\IPoolFactory.cs" />
-    <Compile Include="Assets\HuaFramework\Framework\Interface\IResourceRefCount.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Localization\LocalizationConfig.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Localization\LocalizationFiled.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Localization\LocalizationManager.cs" />
@@ -117,7 +113,6 @@
     <Compile Include="Assets\HuaFramework\Framework\Unity\TransformSetPosQuick.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Unity\UnityTools.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Util\BindableProperty.cs" />
-    <Compile Include="Assets\HuaFramework\Framework\Util\BindnaryProperty.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Util\CommonUtil.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Util\Debug.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Util\Deserilizable.cs" />
@@ -126,13 +121,11 @@
     <Compile Include="Assets\HuaFramework\Framework\Util\MathfUtil.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Util\MessageCenter.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Util\MonoSingleton.cs" />
-    <Compile Include="Assets\HuaFramework\Framework\Util\ObjectPool.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Util\ObjectPool\IPool.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Util\ObjectPool\IPoolFactory.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Util\ObjectPool\ObjectPool.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Util\ObjectPool\ObjectPoolFactory.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Util\ObjectPool\SimpleObjectPool.cs" />
-    <Compile Include="Assets\HuaFramework\Framework\Util\ObjectPoolFactory.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Util\ResolutionCheck.cs" />
     <Compile Include="Assets\HuaFramework\Framework\Util\Singleton.cs" />
   </ItemGroup>
