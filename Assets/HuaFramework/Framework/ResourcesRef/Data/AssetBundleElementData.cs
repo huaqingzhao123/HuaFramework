@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace HuaFramework.ResourcesRef
 {
+    /// <summary>
+    /// 编辑器模拟模式时不走AB包，使用
+    /// </summary>
     public class AssetBundleElementData 
     {
         /// <summary>

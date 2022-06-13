@@ -55,7 +55,7 @@ namespace HuaFramework.ResourcesRef
             AssetState = AssetState.Loading;
             AsyncLoadDependency(() =>
             {
-                //不是SimulationMode不加载AssetBundle
+                //是SimulationMode不加载AssetBundle
                 if (ResManager.IsSimulationModeLogic)
                 {
                     AssetState = AssetState.Loaded;
