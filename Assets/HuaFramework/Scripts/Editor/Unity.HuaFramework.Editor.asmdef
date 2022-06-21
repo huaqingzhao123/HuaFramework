@@ -1,9 +1,13 @@
 {
-    "name": "HuaFramework",
-    "references": [],
+    "name": "HuaFrameworkEditor",
+    "references": [
+        "GUID:b8d419667d6a3234292cb120ea7c5f44"
+    ],
     "includePlatforms": [],
-    "excludePlatforms": [],
-    "allowUnsafeCode": true,
+    "excludePlatforms": [
+        "Editor"
+    ],
+    "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,

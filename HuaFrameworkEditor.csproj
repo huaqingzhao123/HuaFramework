@@ -63,10 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\HuaFramework\Editor\AudioFormatConversion.cs" />
-    <Compile Include="Assets\HuaFramework\Editor\EditorUtil.cs" />
-    <Compile Include="Assets\HuaFramework\Editor\SpriteImporterSetting.cs" />
-    <None Include="Assets\HuaFramework\Editor\HuaFrameworkEditor.asmdef" />
+    <Compile Include="Assets\HuaFramework\Scripts\Editor\AudioFormatConversion.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\Editor\EditorUtil.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\Editor\SpriteImporterSetting.cs" />
+    <None Include="Assets\HuaFramework\Scripts\Editor\Editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>E:/Unity/Editor/2019.4.19f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -650,7 +650,12 @@
       <HintPath>D:/HuaFramework/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="HuaFramework.csproj">
+      <Project>{D86066BF-CD7B-D01E-E5CE-2459BDF69F3A}</Project>
+      <Name>HuaFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -63,8 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\HuaFramework\Examples\ManagerExample\IOCExample.cs" />
-    <Compile Include="Assets\HuaFramework\Examples\ManagerExample\Storage.cs" />
     <Compile Include="Assets\Scenes\Test\StringTest\StringTesst.cs" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.xml" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\Sirenix.Utilities.xml" />
@@ -664,14 +662,6 @@
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
       <Project>{96280009-2918-31D6-677C-3E847C66DDB1}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
-    </ProjectReference>
-    <ProjectReference Include="HuaFramework.csproj">
-      <Project>{D86066BF-CD7B-D01E-E5CE-2459BDF69F3A}</Project>
-      <Name>HuaFramework</Name>
-    </ProjectReference>
-    <ProjectReference Include="HuaFrameworkEditor.csproj">
-      <Project>{04A75C4F-AEBB-31AB-1EB5-917A72AA86A1}</Project>
-      <Name>HuaFrameworkEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
