@@ -1,12 +1,13 @@
 {
     "name": "Unity.HuaFramework.Editor.Tests",
     "references": [
-        "GUID:701152db1d94cab4bb6c91ea21bc000e"
+        "GUID:0741095e2be0cfd4bace92c3697503d4",
+        "GUID:70f601cb6867b5647a13a0e51775a499"
     ],
-    "includePlatforms": [],
-    "excludePlatforms": [
+    "includePlatforms": [
         "Editor"
     ],
+    "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],

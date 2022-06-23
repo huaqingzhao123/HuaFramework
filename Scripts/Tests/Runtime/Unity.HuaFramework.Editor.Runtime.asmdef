@@ -1,27 +1,10 @@
 {
     "name": "Unity.HuaFramework.Runtime.Tests",
     "references": [
-        "GUID:b8d419667d6a3234292cb120ea7c5f44"
+        "GUID:70f601cb6867b5647a13a0e51775a499"
     ],
     "includePlatforms": [],
-    "excludePlatforms": [
-        "Android",
-        "CloudRendering",
-        "Editor",
-        "iOS",
-        "LinuxStandalone64",
-        "Lumin",
-        "macOSStandalone",
-        "PS4",
-        "Stadia",
-        "Switch",
-        "tvOS",
-        "WSA",
-        "WebGL",
-        "WindowsStandalone32",
-        "WindowsStandalone64",
-        "XboxOne"
-    ],
+    "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
