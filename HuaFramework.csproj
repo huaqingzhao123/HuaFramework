@@ -135,7 +135,7 @@
     <Compile Include="Assets\HuaFramework\Scripts\Runtime\Util\ObjectPool\SimpleObjectPool.cs" />
     <Compile Include="Assets\HuaFramework\Scripts\Runtime\Util\ResolutionCheck.cs" />
     <Compile Include="Assets\HuaFramework\Scripts\Runtime\Util\Singleton.cs" />
-    <None Include="Assets\HuaFramework\Scripts\Runtime\Runtime.asmdef" />
+    <None Include="Assets\HuaFramework\Scripts\Runtime\Unity.HuaFramework.Runtime.asmdef" />
     <None Include="Assets\HuaFramework\Scripts\Runtime\Localization\LocalizationConfig.xml" />
     <Reference Include="UnityEngine">
       <HintPath>E:/Unity/Editor/2019.4.19f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

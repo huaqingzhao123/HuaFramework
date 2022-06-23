@@ -63,8 +63,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\HuaFramework\Scripts\Tests\Editor\EditorTools.cs" />
-    <Compile Include="Assets\HuaFramework\Scripts\Tests\Editor\FrameWorkExample.cs" />
+    <Compile Include="Assets\HuaFramework\Examples\Editor\EditorTools.cs" />
+    <Compile Include="Assets\HuaFramework\Examples\Editor\FrameWorkExample.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\Editor\AudioFormatConversion.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\Editor\EditorUtil.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\Editor\SpriteImporterSetting.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\Runtime\OdinConfigs\Editor\ConfigEditor.cs" />
+    <None Include="Assets\HuaFramework\Scripts\Editor\Unity.HuaFramework.Editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>E:/Unity/Editor/2019.4.19f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -705,6 +710,14 @@
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
       <Project>{96280009-2918-31D6-677C-3E847C66DDB1}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="HuaFramework.csproj">
+      <Project>{D86066BF-CD7B-D01E-E5CE-2459BDF69F3A}</Project>
+      <Name>HuaFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="HuaFrameworkEditor.csproj">
+      <Project>{04A75C4F-AEBB-31AB-1EB5-917A72AA86A1}</Project>
+      <Name>HuaFrameworkEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

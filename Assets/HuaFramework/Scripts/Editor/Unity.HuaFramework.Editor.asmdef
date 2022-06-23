@@ -1,12 +1,12 @@
 {
-    "name": "HuaFrameworkEditor",
+    "name": "Unity.HuaFramework.Editor",
     "references": [
-        "GUID:b8d419667d6a3234292cb120ea7c5f44"
+        "GUID:70f601cb6867b5647a13a0e51775a499"
     ],
-    "includePlatforms": [],
-    "excludePlatforms": [
+    "includePlatforms": [
         "Editor"
     ],
+    "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
