@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 4232649493
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ceb56d3914c42eba84eeb2a9e285ab6f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 27295f96fcdc2b917bd061e8817c7e02
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/HuaFramework/Prefabs/asset2.prefab
+Dependencies:
+- F:/TestWork/FrameworkTest/Assets/StreamingAssets/AssetBundles/Windows64/asset3

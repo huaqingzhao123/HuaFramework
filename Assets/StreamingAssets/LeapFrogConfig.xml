@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoGenConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EveryOneDeltaTime>0</EveryOneDeltaTime>
+  <TheUpOnePos>
+    <X>222</X>
+    <Y>200</Y>
+  </TheUpOnePos>
+  <UpDeltaDistance>0</UpDeltaDistance>
+  <TheDownOnePos>
+    <X>0</X>
+    <Y>0</Y>
+  </TheDownOnePos>
+  <DownDeltaDistance>0</DownDeltaDistance>
+  <UpRawButtonNumer>0</UpRawButtonNumer>
+  <DownRawButtonNumer>0</DownRawButtonNumer>
+</AutoGenConfig>

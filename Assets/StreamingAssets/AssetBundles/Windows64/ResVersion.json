@@ -1,0 +1,9 @@
+{
+    "Version": 5,
+    "AllAssetBundles": [
+        "asset2",
+        "asset3",
+        "assetbundleone",
+        "audio"
+    ]
+}
