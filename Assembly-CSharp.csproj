@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2019_4_29;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;ODIN_INSPECTOR;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2019_4_29;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;ODIN_INSPECTOR;ALLOWUNSAFE;MOREMOUNTAINS_NICEVIBRATIONS;MOREMOUNTAINS_NICEVIBRATIONS_RUMBLE;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -56,6 +56,417 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\HuaFramework\Libraries\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\FPPhysics\Extensions\CompatibleExtension.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\FPPhysics\Extensions\ShapeDrawer.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\FPPhysics\Test\FPTest.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\FPPhysics\Test\PhysicsTest.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\Components\HNSPlayerCamera.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\Components\HNSPlayerController.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\Components\HUDNavigationCanvas.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\Components\HUDNavigationElement.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\Components\HUDNavigationElementSettings.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\Components\HUDNavigationSceneManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\Components\HUDNavigationSystem.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\Configurations\HNSSceneConfiguration.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\HNS.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\Prefabs\HNSCompassBarPrefab.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\Prefabs\HNSIndicatorPrefab.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\Prefabs\HNSMinimapPrefab.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\Prefabs\HNSPrefab.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\Prefabs\HNSRadarPrefab.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\Profiles\HNSMapProfile.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\Utilities\HNSTextureCreator.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\Scripts\Utilities\HUDNavigationExtensions.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\demoScripts\ExampleCallbackScript.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\demoScripts\HUDCurrentDegrees.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\demoScripts\HUDKeepRotation.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\LoopScrollRect\EasyObjectPool\EasyObjectPool.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\LoopScrollRect\EasyObjectPool\ResourceManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\LoopScrollRect\InitOnStart.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\LoopScrollRect\LoopHorizontalScrollRect.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\LoopScrollRect\LoopScrollDataSource.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\LoopScrollRect\LoopScrollPrefabSource.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\LoopScrollRect\LoopScrollRect.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\LoopScrollRect\LoopVerticalScrollRect.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Animation\AnimTypeIn.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Animation\AnimationEventListener.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Animation\LayoutGroup\AnimLayoutGroupAlpha.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Animation\LayoutGroup\AnimLayoutGroupBase.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Animation\mechanism\VecAnimClipOverrides.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Asset\AssetLoadInfo.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Asset\AssetLoaderManagerBase.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Asset\AssetManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Asset\AssetModuleLoadManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Asset\AssetsVersionInfo.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Asset\IAssetLoaderReceiver.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Asset\ModulePackageConfigAsset.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Asset\RemoteVersionManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\AssetBundleManager\AssetsLoader.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\AssetBundleManager\AssetsLoaderManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\AssetBundleManager\IAssetRequest.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\AssetBundleManager\ILoadManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\AssetBundleManager\PrefabLoadManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\AnimatorPlayCall.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\AudioManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\CameraController2D.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\ClearManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\ColorUtil.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\Common.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\CoroutineRunner.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\Delegate.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\Deque.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\Dynamic.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\EnumUtils.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\EventBehaviour.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\EventTriggerListener.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\Extensions.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\FoldingScrollRect.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\GameCommonGlobal.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\GameDebug.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\GameObjectEx.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\GameObjectPool.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\IByteReader.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\IClearListener.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\ITouchHandler.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\InputManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\JsonUtils.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\LightmapData.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\LoadingProgressData.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\Logger.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\MJServerDistributionSDK.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\MathUtil.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\MultiDictionary.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\MultiLanguageSpriteManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\NotchAdapter.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\ObjectEx.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\ObjectInfo.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\ObjectNodePool.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\ObjectNodePoolManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\ObjectPool.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\PrefabsSaveRule.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\RandomPickUtil.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\Randoms.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\Scheduler.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\SerializeableDictionary.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\Singleton.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\SingletonBehaviour.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\SpriteAtlasManagerListener.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\Statics.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\StringDef.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\TouchManager2D.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\TouchManager3D.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\UIElementClickEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\UIFollowTarget.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\UnorderMultiMap.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\UnorderMultiMapSet.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Common\Vector2Int.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Develop\GUIUtil.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Develop\HTTPTool.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Develop\Log.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Develop\LogOutPutThread.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Develop\PersistentFileManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Develop\URLManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Download\DownloadQueue.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Download\IDownloadQueue.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Download\IWebFileObserver.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Download\RetainObject.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Download\WebFileCacheList.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Download\WebFileLoader.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\File\AssetBundleFilePath.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\File\Config\CSVService.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\File\Config\ConfigManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\File\Config\DataRow.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\File\Config\DataTable.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\File\Config\GameConfigManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\File\EncryptLocalSave.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\File\FileDownloader.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\File\FilePathHelper.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\File\FileUtil.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\File\LocalSave.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\File\PathConst.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\File\PathUtils.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Global.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\DevelopReplayManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Events\IInputOperationEventBase.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Events\UI\InputUILongPressEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Events\UI\InputUIOnBeginDragEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Events\UI\InputUIOnClickEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Events\UI\InputUIOnDragEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Events\UI\InputUIOnDropValueChangeEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Events\UI\InputUIOnEndDragEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Events\UI\InputUIOnMouseEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Events\UI\InputUIOnScrollEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Events\UI\InputUIOnValueChangeEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\InputDispatcher.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\InputEventProxy\InputOperationEventProxy.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\InputEventProxy\InputUIEventProxy.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\InputManagerV2.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Interface\IInputDispatcher.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Interface\IInputEventBase.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Interface\IInputOperationEventCreater.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Interface\IInputProxyBase.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Interface\InputUIEventBase.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\RandomService.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\RandomVector2Service.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Utils\File\FileTool.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Utils\HeapObjectPool.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Utils\Json\DeJson.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Utils\Json\JsonTool.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Utils\Json\MiniJSON.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Utils\Json\SimpleJson\JsonUtils.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Utils\Json\SimpleJson\ReflectionUtils.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Utils\Json\SimpleJson\SimpleJson.Reflection\ReflectionUtils.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Utils\Json\SimpleJson\SimpleJson\IJsonSerializerStrategy.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Utils\Json\SimpleJson\SimpleJson\JsonArray.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Utils\Json\SimpleJson\SimpleJson\JsonObject.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Utils\Json\SimpleJson\SimpleJson\PocoJsonSerializerStrategy.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Utils\Json\SimpleJson\SimpleJson\SimpleJson.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Utils\PathTool.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\Utils\ResourceIOTool.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Input\WWWUpLoadUtils.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Net\HttpService.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Net\NetData.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Net\NetUtil.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Net\SocketService.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\PoolManager\PoolManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\PoolManager\PreRuntimePoolItem.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\PoolManager\SpawnPool.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\ReflectionMonoBehaviour\ReflectionAttribute.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\ReflectionMonoBehaviour\ReflectionMonoBehaviour.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Tools\FastString.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Tools\FastStringManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\Tools\GUIConsole.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\CircleScrollView.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\CircleScrollViewItem.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\CircularProgress.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\CircularProgressRotationHeadExtension.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\DepthSortUIRoot.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\DynamicScrollView.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\DynamicScrollViewItem.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\Empty4Raycast.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\ExternLoopToggleGroup.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\ExternLoopToggleGroupItem.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\Gradient.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\HUDText.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\HyperlinkText.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\IUITileListItemRenderer.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\Lib\FlowManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\Lib\LayerManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\Lib\MaskLayer.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\Lib\PopUpManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\Lib\SceneManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\Lib\UIDialog.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\Lib\UIScene.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\LongPressControll.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\MultiLangImage.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\NonBreakingSpaceTextComponent.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\PolygonImage.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\RedDot\RedDot.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\RedDot\RedDotManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\RedDot\RedDotType.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\SetOrderInLayer.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\ShrinkText.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\SpriteAtlasHelper.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\UGUIEx.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\UIBinder.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\UIButtonEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\UIButtonHighlight.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\UICamera.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\UICircleImage.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\UIDragEvents.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\UIEventTriggerListener.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\UIGray.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\UIImageSpriteSwitch.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\UIParticleRenderer.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\UIRadarChart.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\UITemplate.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\UITileListController.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UI\UIUtils.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UIEffect\EffectController.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UIEffect\EffectPool.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UIEffect\UIEffectManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\UIEffect\UIEffectScrollViewCamera.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\VersionSystem\Nireus\AssetBundleSystem.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\VersionSystem\Nireus\AssetResManifest.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\VersionSystem\Nireus\ChannelData.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\VersionSystem\Nireus\Encryption.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\VersionSystem\Nireus\IAssetBundleManager.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\VersionSystem\Nireus\IUpdateClient.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\VersionSystem\Nireus\PatchData.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\VersionSystem\Nireus\Platform.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\VersionSystem\Nireus\Task.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\VersionSystem\Nireus\Version.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Nireus\VersionSystem\Nireus\VersionSystem.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Trails FX\Scripts\TrailEffect.cs" />
+    <Compile Include="Assets\HuaFramework\Libraries\Trails FX\Scripts\TrailEffectProfile.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionKeyCode.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\Attack.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\AttackMode.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\BlowUpInjured.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\Condition.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\DataTag.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\Dataset.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\Destroy.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\Direction.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\EnemyAI.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\FindAttackTarget.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\HitInjured.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\Injured.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\LevitateInjured.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\MissileBuilder.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\Move.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\ObjectTypesEx.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\PlayAudio.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\PlayEffect.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\Property.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\UpdateDirection.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\ActionMachine\Velocity.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\App.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Data\EnemyInfo.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Data\Flat\FrameRecorder.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Data\FrameInfo.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Data\PlayerInfo.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\EventTypes.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\GlobalSetting.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Launcher.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\LevelController.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Misc\BackGroundParallax.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Misc\DeadReckoning.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Misc\InputDataExtensions.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Misc\TweenValue.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Archive\ArchiveService.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Audio\AudioBase.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Audio\AudioService.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Audio\BGAudio.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Audio\SceneAudio.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Camera\CameraEffect.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Camera\CameraEffectSetting.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Camera\CameraFSM.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Camera\CameraFollow.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Camera\CameraFollowSetting.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Camera\CameraOperation.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Camera\CameraRoot.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Camera\CameraService.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Camera\CameraShake.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Camera\CameraShakeSetting.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Camera\Effect\InjuredEffect.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Camera\PostProcess\InjuredPostEffect.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Device\DeviceService.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Device\HapticSetting.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Commons\CameroFollowPlayer.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Commons\GameWorldInterfaces.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Commons\ISystem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\Object\ActionMachineObject.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\Object\EffectObject.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\Object\EnemyObject.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\Object\IActionController.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\Object\MissileObject.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\Object\MovementObject.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\Object\PlayerObject.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\Object\RaycastObject.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\Object\RigidBodyObject.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\View\ActionMachineView.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\View\BloodEffectView.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\View\EffectView.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\View\EnemyView.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\View\MissileView.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\View\ParticleEffectView.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\View\PlayerView.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\View\RigidBodyView.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Custom\View\SubView\TrailSubView.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\GameWorld.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\GameWorldCameraFSM.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UAudioSystem\UAudioSystem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UCameraSystem\UCameraSystem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UEnemySystem\UEnemySystem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UEventSystem\UAttackEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UEventSystem\UAudioEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UEventSystem\UCameraEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UEventSystem\UDeadEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UEventSystem\UDestroyEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UEventSystem\UEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UEventSystem\UEventSystem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UEventSystem\UMissileBuilderEvent.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UGameSystem\AimRingDisplay.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UGameSystem\AttackTargetFlagDisplay.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UGameSystem\IUGameComponent.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UGameSystem\UGameSystem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UInputSystem\UInputSystem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UObjectSystem\IUObjectLateUpdate.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UObjectSystem\IUObjectLogicUpdate.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UObjectSystem\IUObjectUpdate.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UObjectSystem\TObject.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UObjectSystem\UObject.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UObjectSystem\UObjectSystem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UPhysicSystem\ColliderController.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UPhysicSystem\IRigidBody.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UPhysicSystem\UPhysicSystem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UPlayerSystem\UPlayerSystem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UPopTextSystem\PopText.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UPopTextSystem\PopTextStyleInfos.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UPopTextSystem\UPopTextSystem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\USceneSystem\USceneSystem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UTestSystem\UTestSystem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UViewSystem\AssetView.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UViewSystem\IAssetObject.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UViewSystem\IAssetView.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UViewSystem\SubAssetView.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\GameWorld\Systems\UViewSystem\UViewSystem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Input\InputService.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Record\RecordService.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Resource\IResourceItem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Resource\ResourceInfo.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Resource\ResourceItem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Resource\ResourceService.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Resource\ResourceType.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Scene\GameScene.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Scene\IWorld.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Scene\SceneDisplayController.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Scene\SceneService.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\Scene\SubScene.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\Anim\UIAnimBase.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\Anim\UIAnimControl.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\Anim\UIAnims.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\Audio\UIAudioControl.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\Input\ButtonInputWriter.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\Input\JoystickButton.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\Input\JoystickInputWriter.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\Input\OnScreenDelta.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\Misc\EnemyInfoControl.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\Misc\PlayerInfoControl.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\Misc\RecorderListItem.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\Misc\ReplayControl.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\Misc\ValueProgressBar.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\UIControl.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\UIManager.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\UIPanel.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\UIPanel\GameMenuPanel.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\UIPanel\GameOverPanel.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\UIPanel\GamePanel.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\UIPanel\LevelPanel.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\UIPanel\LoadingPanel.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\UIPanel\MainPanel.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\UIPanel\MatchingPanel.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\UIPanel\RecorderPanel.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\UIPanel\ReplayPanel.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\UIRoot.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Services\UIManager\UISubControl.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Test\AppChecker.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Test\DeadReckoningTest.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Test\GameDebugger.cs" />
+    <Compile Include="Assets\HuaFramework\Scripts\AliveCell\Scripts\Test\GameDebuggerGUI.cs" />
+    <Compile Include="Assets\Input\GameInput.cs" />
     <Compile Include="Assets\Test\CounterModel\CounterApp.cs" />
     <Compile Include="Assets\Test\CounterModel\CounterModel.cs" />
     <Compile Include="Assets\Test\CounterModel\CounterTest.cs" />
@@ -66,27 +477,67 @@
     <Compile Include="Assets\Test\Unity-TurningPage\TurningPage\Scripts\TurnPage.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\HuaFramework\Libraries\Nireus\UI\UIParitcleShader\UI Particle VertexLit Blended.shader" />
     <None Include="Assets\Test\ShaderTest\001.shader" />
+    <None Include="Assets\HuaFramework\Libraries\Spine\version.txt" />
+    <None Include="Assets\HuaFramework\Libraries\XMLib\XMLib.ThirdParty\Runtime\SevenZip.dll" />
+    <None Include="Assets\HuaFramework\Libraries\HUD-Navigation-System\README.txt" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.xml" />
+    <None Include="Assets\HuaFramework\Libraries\XMLib\XMLib.ThirdParty\Runtime\protobuf-net.dll" />
+    <None Include="Assets\HuaFramework\Libraries\Nireus\UI\UIParitcleShader\UI Particle Alpha Blend.shader" />
+    <None Include="Assets\HuaFramework\Libraries\Trails FX\Resources\TrailsFX\TrailEffectDistort.shader" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\NoEmitAndNoEditor\Sirenix.Serialization.dll" />
+    <None Include="Assets\HuaFramework\Libraries\Nireus\UI\UIParitcleShader\UI Particle AddSmooth.shader" />
+    <None Include="Assets\HuaFramework\Libraries\Trails FX\Resources\TrailsFX\TrailEffectOutline.shader" />
+    <None Include="Assets\HuaFramework\Libraries\Demigiant\readme_DOTweenPro.txt" />
+    <None Include="Assets\HuaFramework\Libraries\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\HuaFramework\Libraries\Demigiant\DemiLib\Core\DemiLib.dll" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll" />
+    <None Include="Assets\HuaFramework\Libraries\Trails FX\README.txt" />
+    <None Include="Assets\HuaFramework\Libraries\Nireus\UI\UIParitcleShader\UI Particle MultiplyDouble.shader" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\Sirenix.Utilities.xml" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.xml" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\NoEditor\Sirenix.Serialization.dll" />
+    <None Include="Assets\HuaFramework\Libraries\Trails FX\Resources\TrailsFX\TrailClearMask.shader" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.xml" />
+    <None Include="Assets\HuaFramework\Libraries\Nireus\UI\UIParitcleShader\UI Particle Premultiply Blend.shader" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll" />
+    <None Include="Assets\HuaFramework\Libraries\Demigiant\DOTween\DOTween.dll" />
     <None Include="Assets\HuaFramework\Plugins\Common\NAudio-Unity.dll" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\NoEditor\Sirenix.Utilities.dll" />
+    <None Include="Assets\HuaFramework\Libraries\Nireus\UI\UIParitcleShader\UI Particle AddMultiply.shader" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Readme.txt" />
+    <None Include="Assets\HuaFramework\Libraries\Nireus\UI\UIParitcleShader\UI Particle Add.shader" />
+    <None Include="Assets\HuaFramework\Libraries\Demigiant\DOTweenPro\DOTweenPro.dll" />
+    <None Include="Assets\HuaFramework\Libraries\Demigiant\DOTweenPro\readme.txt" />
+    <None Include="Assets\HuaFramework\Libraries\Json.NET\Newtonsoft.Json.xml" />
+    <None Include="Assets\HuaFramework\Libraries\Trails FX\Resources\TrailsFX\TrailEffectColor.shader" />
+    <None Include="Assets\HuaFramework\Libraries\NiceVibrations\readme.txt" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.xml" />
+    <None Include="Assets\HuaFramework\Libraries\Demigiant\DemiLib\Core\DemiLib.xml" />
+    <None Include="Assets\HuaFramework\Libraries\Trails FX\Resources\TrailsFX\TrailMask.shader" />
+    <None Include="Assets\HuaFramework\Libraries\Trails FX\Resources\TrailsFX\TrailEffectClone.shader" />
+    <None Include="Assets\HuaFramework\Libraries\Trails FX\Resources\TrailsFX\TrailEffectTextureStamp.shader" />
+    <None Include="Assets\HuaFramework\Libraries\XMLib\XMLib.ThirdParty\Runtime\Google.Protobuf.dll" />
+    <None Include="Assets\HuaFramework\Libraries\Demigiant\DOTweenPro\DOTweenPro.XML" />
     <None Include="Assets\StreamingAssets\LeapFrogConfig.xml" />
+    <None Include="Assets\HuaFramework\Libraries\NiceVibrations\license.txt" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\link.xml" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll" />
+    <None Include="Assets\HuaFramework\Libraries\ParticleEffectForUGUI\Shaders\UIAdditive.shader" />
+    <None Include="Assets\HuaFramework\Libraries\Json.NET\Newtonsoft.Json.dll" />
+    <None Include="Assets\HuaFramework\Libraries\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\HuaFramework\Libraries\Nireus\UI\UIParitcleShader\UI Particle ShanChun.shader" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\NoEmitAndNoEditor\Sirenix.Utilities.dll" />
+    <None Include="Assets\HuaFramework\Libraries\Trails FX\Resources\TrailsFX\TrailEffectLaser.shader" />
+    <None Include="Assets\HuaFramework\Libraries\Nireus\UI\UIParitcleShader\UI Particle Multiply.shader" />
+    <None Include="Assets\HuaFramework\Libraries\XMLib\XMLib.ThirdParty\Runtime\FlatBuffers.dll" />
+    <None Include="Assets\HuaFramework\Libraries\XMLib\XMLib.ThirdParty\Runtime\websocket-sharp.dll" />
     <None Include="Assets\Test\ShaderTest\Materials\Mirror\MirrorShader.shader" />
     <None Include="Assets\HuaFramework\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll" />
+    <None Include="Assets\HuaFramework\Libraries\Nireus\UI\UIParitcleShader\UI Particle Blend.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -271,6 +722,42 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.29f1c2\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>Assets\HuaFramework\Libraries\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\HuaFramework\Libraries\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>Assets\HuaFramework\Libraries\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\HuaFramework\Libraries\Json.NET\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="FlatBuffers">
+      <HintPath>Assets\HuaFramework\Libraries\XMLib\XMLib.ThirdParty\Runtime\FlatBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>Assets\HuaFramework\Libraries\XMLib\XMLib.ThirdParty\Runtime\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>Assets\HuaFramework\Libraries\XMLib\XMLib.ThirdParty\Runtime\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="SevenZip">
+      <HintPath>Assets\HuaFramework\Libraries\XMLib\XMLib.ThirdParty\Runtime\SevenZip.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\HuaFramework\Libraries\XMLib\XMLib.ThirdParty\Runtime\websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.ClipperLib">
+      <HintPath>Assets\HuaFramework\Plugins\AstarPathfindingProject\Plugins\Clipper\Pathfinding.ClipperLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>Assets\HuaFramework\Plugins\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Poly2Tri">
+      <HintPath>Assets\HuaFramework\Plugins\AstarPathfindingProject\Plugins\Poly2Tri\Pathfinding.Poly2Tri.dll</HintPath>
     </Reference>
     <Reference Include="NAudio-Unity">
       <HintPath>Assets\HuaFramework\Plugins\Common\NAudio-Unity.dll</HintPath>
@@ -641,8 +1128,14 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
@@ -656,11 +1149,26 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
@@ -673,17 +1181,77 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="XMLib.AM.Editor.csproj">
+      <Project>{7BD835D9-076F-2827-BA44-7133239C3B89}</Project>
+      <Name>XMLib.AM.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
       <Project>{D52E0566-5BAB-A5C4-6328-5261E17F4409}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="XMLib.Common.Editor.csproj">
+      <Project>{440A3495-1F17-555E-EB6A-8E5CC7B3CBBA}</Project>
+      <Name>XMLib.Common.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{5BE406A7-E7A3-AE2C-8498-8EEF999576AC}</Project>
+      <Name>AstarPathfindingProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.NiceVibrations.Rumble.csproj">
+      <Project>{5761CD2A-3667-E3C0-9F94-DF19BB51D12F}</Project>
+      <Name>MoreMountains.NiceVibrations.Rumble</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
       <Project>{96280009-2918-31D6-677C-3E847C66DDB1}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
     </ProjectReference>
+    <ProjectReference Include="XMLib.Core.csproj">
+      <Project>{1BCFAF26-F47A-37BC-A99B-0E8684643771}</Project>
+      <Name>XMLib.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{F246B794-7851-C554-CAD5-BAC589F295BF}</Project>
+      <Name>PackageToolsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity.csproj">
+      <Project>{4439044B-AAFF-D697-FFA4-ECC1518CDBEB}</Project>
+      <Name>spine-unity</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.HuaFramework.Editor.Tests.csproj">
       <Project>{94BFF686-A887-9E15-0B43-7639908D2EA9}</Project>
       <Name>Unity.HuaFramework.Editor.Tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="XMLib.Common.csproj">
+      <Project>{5A304DBF-283C-5FB2-B88E-8217FE70A52E}</Project>
+      <Name>XMLib.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.NiceVibrations.Haptics.csproj">
+      <Project>{DB834948-B993-E3AA-D724-C0CA08451D54}</Project>
+      <Name>MoreMountains.NiceVibrations.Haptics</Name>
+    </ProjectReference>
+    <ProjectReference Include="FPPhysics.csproj">
+      <Project>{5EBB507E-8181-3074-1C09-88AE9FBB0CDA}</Project>
+      <Name>FPPhysics</Name>
+    </ProjectReference>
+    <ProjectReference Include="XMLib.Core.Editor.csproj">
+      <Project>{1DC1D576-0E0D-06DE-4B6B-537DD4858B25}</Project>
+      <Name>XMLib.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{F2136DFF-C35C-32BE-250F-6BCD6D1E63FE}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-csharp.csproj">
+      <Project>{8765DEDE-4886-6A0B-8EE5-53A889FCFFA8}</Project>
+      <Name>spine-csharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="XMLib.AM.csproj">
+      <Project>{DD69E65A-CD04-2AFB-AA69-B82CF7FBFEFB}</Project>
+      <Name>XMLib.AM</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.NiceVibrations.csproj">
+      <Project>{6E599EEF-9B07-52B7-7AC4-768760E83793}</Project>
+      <Name>MoreMountains.NiceVibrations</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.HuaFramework.Runtime.Tests.csproj">
       <Project>{13EF5AB3-A44F-6C2D-018E-1672363B03D3}</Project>
@@ -693,9 +1261,33 @@
       <Project>{12F3AD94-CC9A-1753-1285-FD416A5E6335}</Project>
       <Name>Unity.HuaFramework.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="MoreMountains.NiceVibrations.Rumble.Editor.csproj">
+      <Project>{4DA4FBF2-395C-66DA-9CB5-8F10D6CAFFFC}</Project>
+      <Name>MoreMountains.NiceVibrations.Rumble.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.NiceVibrations.Editor.csproj">
+      <Project>{EBD44F7D-D135-4658-48C2-5F23C52D6983}</Project>
+      <Name>MoreMountains.NiceVibrations.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Coffee.UIParticle.csproj">
+      <Project>{A8D7C3C0-ECCC-BF5F-7A00-6FB8E812A294}</Project>
+      <Name>Coffee.UIParticle</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-editor.csproj">
+      <Project>{C92198B1-5298-7D08-9C0D-7ED93C44B3F1}</Project>
+      <Name>spine-unity-editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.HuaFramework.Editor.csproj">
       <Project>{265BAC9B-B29A-A6EC-BEDF-E9CF7E02C0D9}</Project>
       <Name>Unity.HuaFramework.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Optimize.csproj">
+      <Project>{8436ECE2-35EB-D85B-E475-2624FB95683A}</Project>
+      <Name>Optimize</Name>
+    </ProjectReference>
+    <ProjectReference Include="ParadoxNotion.csproj">
+      <Project>{C07857AF-E6A2-84A6-9396-A8F797CE9153}</Project>
+      <Name>ParadoxNotion</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

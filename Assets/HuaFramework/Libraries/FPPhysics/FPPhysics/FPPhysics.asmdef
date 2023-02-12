@@ -1,0 +1,16 @@
+{
+    "name": "FPPhysics",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "ALLOWUNSAFE"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

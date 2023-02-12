@@ -1,0 +1,41 @@
+/*
+ * 作者：Peter Xiang
+ * 联系方式：565067150@qq.com
+ * 文档: https://github.com/PxGame
+ * 创建时间: 2020/11/27 0:24:28
+ */
+
+namespace AliveCell.Flat;
+
+//玩家数据
+table PlayerData{
+    playerType:int;//玩家类型
+    playerID:string;//玩家id
+    id:int;//uobject id
+    birthIndex:int;//出生编号
+    groupId:int;//分组
+}
+
+//输入数据
+struct InputData{
+    id:int;//uobject id
+    keyCode:int;//按键
+    axisValue:ubyte;//轴
+}
+
+//帧数据
+table FrameData{
+    frameIndex:int;//帧号
+    inputs:[InputData];//输入数据列表
+}
+
+//记录
+table FrameRecorder {
+    mapId:int;//地图id
+    selfId:int;//拥有者的id
+    players:[PlayerData];//玩家列表
+    frames:[FrameData];//帧列表
+    gameMode:int;//游戏类型
+}
+
+root_type FrameRecorder;
