@@ -15,7 +15,7 @@ namespace HuaFramework.Configs
     public class AutoGenConfig
     {
         public int Id;
-#if UNITY_EDITOR
+#if UNITY_EDITOR&&ODIN_INSPECTOR
         public static string ConfigName = "\\GameConfig.xml";
         public static AutoGenConfig musicGameConfig = new AutoGenConfig();
         [MenuItem("Assets/生成游戏配置模板/自动生成配置")]

@@ -268,6 +268,72 @@
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.29f1c2\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>Assets\Libraries\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiEditor">
+      <HintPath>Assets\Libraries\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Libraries\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets\Libraries\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>Assets\Libraries\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenProEditor">
+      <HintPath>Assets\Libraries\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\Libraries\Json.NET\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Editor\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="FlatBuffers">
+      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\FlatBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="SevenZip">
+      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\SevenZip.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.ClipperLib">
+      <HintPath>Assets\Plugins\AstarPathfindingProject\Plugins\Clipper\Pathfinding.ClipperLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>Assets\Plugins\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Poly2Tri">
+      <HintPath>Assets\Plugins\AstarPathfindingProject\Plugins\Poly2Tri\Pathfinding.Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Attributes">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Serialization.Config">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Utilities">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Utilities.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.6.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
@@ -280,74 +346,8 @@
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.6.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="DOTweenEditor">
-      <HintPath>Assets\Libraries\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenProEditor">
-      <HintPath>Assets\Libraries\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="EPPlus">
-      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Editor\EPPlus.dll</HintPath>
-    </Reference>
-    <Reference Include="DemiLib">
-      <HintPath>Assets\Libraries\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>Assets\Libraries\Demigiant\DOTween\DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="SevenZip">
-      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\SevenZip.dll</HintPath>
-    </Reference>
-    <Reference Include="DemiEditor">
-      <HintPath>Assets\Libraries\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\websocket-sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Protobuf">
-      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\Google.Protobuf.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenPro">
-      <HintPath>Assets\Libraries\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets\Libraries\Json.NET\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="FlatBuffers">
-      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\FlatBuffers.dll</HintPath>
-    </Reference>
-    <Reference Include="protobuf-net">
-      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\protobuf-net.dll</HintPath>
-    </Reference>
-    <Reference Include="Pathfinding.ClipperLib">
-      <HintPath>Assets\Plugins\AstarPathfindingProject\Plugins\Clipper\Pathfinding.ClipperLib.dll</HintPath>
-    </Reference>
-    <Reference Include="Pathfinding.Poly2Tri">
-      <HintPath>Assets\Plugins\AstarPathfindingProject\Plugins\Poly2Tri\Pathfinding.Poly2Tri.dll</HintPath>
-    </Reference>
     <Reference Include="NAudio-Unity">
-      <HintPath>Assets\Plugins\Common\NAudio-Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>Assets\Plugins\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.OdinInspector.Editor">
-      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.OdinInspector.Attributes">
-      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.Utilities.Editor">
-      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.Serialization.Config">
-      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.Serialization">
-      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.Utilities">
-      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
+      <HintPath>Assets\HuaFramework\Plugins\Common\NAudio-Unity.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -775,22 +775,6 @@
       <Project>{4D2BA153-CFB8-36D9-42B2-A923F0B48AD5}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.HuaFramework.Editor.Tests.csproj">
-      <Project>{94BFF686-A887-9E15-0B43-7639908D2EA9}</Project>
-      <Name>Unity.HuaFramework.Editor.Tests</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.HuaFramework.Runtime.Tests.csproj">
-      <Project>{13EF5AB3-A44F-6C2D-018E-1672363B03D3}</Project>
-      <Name>Unity.HuaFramework.Runtime.Tests</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.HuaFramework.Runtime.csproj">
-      <Project>{12F3AD94-CC9A-1753-1285-FD416A5E6335}</Project>
-      <Name>Unity.HuaFramework.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.HuaFramework.Editor.csproj">
-      <Project>{265BAC9B-B29A-A6EC-BEDF-E9CF7E02C0D9}</Project>
-      <Name>Unity.HuaFramework.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="XMLib.AM.Editor.csproj">
       <Project>{7BD835D9-076F-2827-BA44-7133239C3B89}</Project>
       <Name>XMLib.AM.Editor</Name>
@@ -798,6 +782,10 @@
     <ProjectReference Include="XMLib.Common.Editor.csproj">
       <Project>{440A3495-1F17-555E-EB6A-8E5CC7B3CBBA}</Project>
       <Name>XMLib.Common.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{5BE406A7-E7A3-AE2C-8498-8EEF999576AC}</Project>
+      <Name>AstarPathfindingProject</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.NiceVibrations.Rumble.csproj">
       <Project>{5761CD2A-3667-E3C0-9F94-DF19BB51D12F}</Project>
@@ -807,9 +795,17 @@
       <Project>{1BCFAF26-F47A-37BC-A99B-0E8684643771}</Project>
       <Name>XMLib.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{F246B794-7851-C554-CAD5-BAC589F295BF}</Project>
+      <Name>PackageToolsEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="spine-unity.csproj">
       <Project>{4439044B-AAFF-D697-FFA4-ECC1518CDBEB}</Project>
       <Name>spine-unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.HuaFramework.Editor.Tests.csproj">
+      <Project>{94BFF686-A887-9E15-0B43-7639908D2EA9}</Project>
+      <Name>Unity.HuaFramework.Editor.Tests</Name>
     </ProjectReference>
     <ProjectReference Include="XMLib.Common.csproj">
       <Project>{5A304DBF-283C-5FB2-B88E-8217FE70A52E}</Project>
@@ -827,6 +823,10 @@
       <Project>{1DC1D576-0E0D-06DE-4B6B-537DD4858B25}</Project>
       <Name>XMLib.Core.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{F2136DFF-C35C-32BE-250F-6BCD6D1E63FE}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="spine-csharp.csproj">
       <Project>{8765DEDE-4886-6A0B-8EE5-53A889FCFFA8}</Project>
       <Name>spine-csharp</Name>
@@ -838,6 +838,18 @@
     <ProjectReference Include="MoreMountains.NiceVibrations.csproj">
       <Project>{6E599EEF-9B07-52B7-7AC4-768760E83793}</Project>
       <Name>MoreMountains.NiceVibrations</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.HuaFramework.Runtime.Tests.csproj">
+      <Project>{13EF5AB3-A44F-6C2D-018E-1672363B03D3}</Project>
+      <Name>Unity.HuaFramework.Runtime.Tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
+      <Project>{D52E0566-5BAB-A5C4-6328-5261E17F4409}</Project>
+      <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.HuaFramework.Runtime.csproj">
+      <Project>{12F3AD94-CC9A-1753-1285-FD416A5E6335}</Project>
+      <Name>Unity.HuaFramework.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.NiceVibrations.Rumble.Editor.csproj">
       <Project>{4DA4FBF2-395C-66DA-9CB5-8F10D6CAFFFC}</Project>
@@ -855,33 +867,21 @@
       <Project>{C92198B1-5298-7D08-9C0D-7ED93C44B3F1}</Project>
       <Name>spine-unity-editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Optimize.csproj">
-      <Project>{8436ECE2-35EB-D85B-E475-2624FB95683A}</Project>
-      <Name>Optimize</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{5BE406A7-E7A3-AE2C-8498-8EEF999576AC}</Project>
-      <Name>AstarPathfindingProject</Name>
-    </ProjectReference>
-    <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{F246B794-7851-C554-CAD5-BAC589F295BF}</Project>
-      <Name>PackageToolsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
-      <Project>{F2136DFF-C35C-32BE-250F-6BCD6D1E63FE}</Project>
-      <Name>AstarPathfindingProjectEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="ParadoxNotion.csproj">
-      <Project>{C07857AF-E6A2-84A6-9396-A8F797CE9153}</Project>
-      <Name>ParadoxNotion</Name>
-    </ProjectReference>
-    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
-      <Project>{D52E0566-5BAB-A5C4-6328-5261E17F4409}</Project>
-      <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
+    <ProjectReference Include="Unity.HuaFramework.Editor.csproj">
+      <Project>{265BAC9B-B29A-A6EC-BEDF-E9CF7E02C0D9}</Project>
+      <Name>Unity.HuaFramework.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
       <Project>{96280009-2918-31D6-677C-3E847C66DDB1}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Optimize.csproj">
+      <Project>{8436ECE2-35EB-D85B-E475-2624FB95683A}</Project>
+      <Name>Optimize</Name>
+    </ProjectReference>
+    <ProjectReference Include="ParadoxNotion.csproj">
+      <Project>{C07857AF-E6A2-84A6-9396-A8F797CE9153}</Project>
+      <Name>ParadoxNotion</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -251,15 +251,6 @@
     <Reference Include="DOTween">
       <HintPath>Assets\Libraries\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
-    <Reference Include="SevenZip">
-      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\SevenZip.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\websocket-sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Protobuf">
-      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\Google.Protobuf.dll</HintPath>
-    </Reference>
     <Reference Include="DOTweenPro">
       <HintPath>Assets\Libraries\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
     </Reference>
@@ -269,29 +260,32 @@
     <Reference Include="FlatBuffers">
       <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\FlatBuffers.dll</HintPath>
     </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\Google.Protobuf.dll</HintPath>
+    </Reference>
     <Reference Include="protobuf-net">
       <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="SevenZip">
+      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\SevenZip.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\Libraries\XMLib\XMLib.ThirdParty\Runtime\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.ClipperLib">
       <HintPath>Assets\Plugins\AstarPathfindingProject\Plugins\Clipper\Pathfinding.ClipperLib.dll</HintPath>
     </Reference>
-    <Reference Include="Pathfinding.Poly2Tri">
-      <HintPath>Assets\Plugins\AstarPathfindingProject\Plugins\Poly2Tri\Pathfinding.Poly2Tri.dll</HintPath>
-    </Reference>
-    <Reference Include="NAudio-Unity">
-      <HintPath>Assets\Plugins\Common\NAudio-Unity.dll</HintPath>
-    </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
       <HintPath>Assets\Plugins\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
-    <Reference Include="Sirenix.OdinInspector.Editor">
-      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+    <Reference Include="Pathfinding.Poly2Tri">
+      <HintPath>Assets\Plugins\AstarPathfindingProject\Plugins\Poly2Tri\Pathfinding.Poly2Tri.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
     </Reference>
-    <Reference Include="Sirenix.Utilities.Editor">
-      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+    <Reference Include="Sirenix.OdinInspector.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization.Config">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
@@ -301,6 +295,12 @@
     </Reference>
     <Reference Include="Sirenix.Utilities">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Utilities.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio-Unity">
+      <HintPath>Assets\HuaFramework\Plugins\Common\NAudio-Unity.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.29f1c2\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
