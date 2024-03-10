@@ -268,6 +268,9 @@
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.29f1c2\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="NAudio-Unity">
+      <HintPath>Assets\HuaFramework\Plugins\Common\NAudio-Unity.dll</HintPath>
+    </Reference>
     <Reference Include="DemiLib">
       <HintPath>Assets\Libraries\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
@@ -345,9 +348,6 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.6.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="NAudio-Unity">
-      <HintPath>Assets\HuaFramework\Plugins\Common\NAudio-Unity.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -803,10 +803,6 @@
       <Project>{4439044B-AAFF-D697-FFA4-ECC1518CDBEB}</Project>
       <Name>spine-unity</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.HuaFramework.Editor.Tests.csproj">
-      <Project>{94BFF686-A887-9E15-0B43-7639908D2EA9}</Project>
-      <Name>Unity.HuaFramework.Editor.Tests</Name>
-    </ProjectReference>
     <ProjectReference Include="XMLib.Common.csproj">
       <Project>{5A304DBF-283C-5FB2-B88E-8217FE70A52E}</Project>
       <Name>XMLib.Common</Name>
@@ -839,17 +835,9 @@
       <Project>{6E599EEF-9B07-52B7-7AC4-768760E83793}</Project>
       <Name>MoreMountains.NiceVibrations</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.HuaFramework.Runtime.Tests.csproj">
-      <Project>{13EF5AB3-A44F-6C2D-018E-1672363B03D3}</Project>
-      <Name>Unity.HuaFramework.Runtime.Tests</Name>
-    </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
       <Project>{D52E0566-5BAB-A5C4-6328-5261E17F4409}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.HuaFramework.Runtime.csproj">
-      <Project>{12F3AD94-CC9A-1753-1285-FD416A5E6335}</Project>
-      <Name>Unity.HuaFramework.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.NiceVibrations.Rumble.Editor.csproj">
       <Project>{4DA4FBF2-395C-66DA-9CB5-8F10D6CAFFFC}</Project>
@@ -867,10 +855,6 @@
       <Project>{C92198B1-5298-7D08-9C0D-7ED93C44B3F1}</Project>
       <Name>spine-unity-editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.HuaFramework.Editor.csproj">
-      <Project>{265BAC9B-B29A-A6EC-BEDF-E9CF7E02C0D9}</Project>
-      <Name>Unity.HuaFramework.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
       <Project>{96280009-2918-31D6-677C-3E847C66DDB1}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
@@ -882,6 +866,22 @@
     <ProjectReference Include="ParadoxNotion.csproj">
       <Project>{C07857AF-E6A2-84A6-9396-A8F797CE9153}</Project>
       <Name>ParadoxNotion</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.HuaFramework.Editor.Tests.csproj">
+      <Project>{94BFF686-A887-9E15-0B43-7639908D2EA9}</Project>
+      <Name>Unity.HuaFramework.Editor.Tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.HuaFramework.Runtime.Tests.csproj">
+      <Project>{13EF5AB3-A44F-6C2D-018E-1672363B03D3}</Project>
+      <Name>Unity.HuaFramework.Runtime.Tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.HuaFramework.Runtime.csproj">
+      <Project>{12F3AD94-CC9A-1753-1285-FD416A5E6335}</Project>
+      <Name>Unity.HuaFramework.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.HuaFramework.Editor.csproj">
+      <Project>{265BAC9B-B29A-A6EC-BEDF-E9CF7E02C0D9}</Project>
+      <Name>Unity.HuaFramework.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -245,6 +245,9 @@
     <Reference Include="UnityEditor">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.29f1c2\Editor\Data\Managed\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="NAudio-Unity">
+      <HintPath>Assets\HuaFramework\Plugins\Common\NAudio-Unity.dll</HintPath>
+    </Reference>
     <Reference Include="DemiLib">
       <HintPath>Assets\Libraries\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
@@ -298,9 +301,6 @@
     </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="NAudio-Unity">
-      <HintPath>Assets\HuaFramework\Plugins\Common\NAudio-Unity.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.29f1c2\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
