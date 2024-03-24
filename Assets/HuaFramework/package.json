@@ -2,7 +2,7 @@
 	"name":"hua_framework",
 	"displayName":"HuaFramework",
 	"description":"A simple framework for unity",
-	"version":"1.0.0",
+	"version":"0.0.2",
 	"unity":"2019.4",
 	"author":"hua",
 	"keywords":[
