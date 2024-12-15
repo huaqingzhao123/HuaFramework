@@ -169,7 +169,7 @@ namespace NodeCanvas.Editor
 
             //show lock bound graph prefab overrides
             if ( owner.graphIsBound ) {
-                var case1 = PrefabUtility.IsPartOfPrefabAsset(owner) || UnityEditor.Experimental.SceneManagement.PrefabStageUtility.GetCurrentPrefabStage()?.prefabContentsRoot == owner.gameObject;
+                var case1 = PrefabUtility.IsPartOfPrefabAsset(owner) || UnityEditor.SceneManagement.PrefabStageUtility.GetCurrentPrefabStage()?.prefabContentsRoot == owner.gameObject;
                 var case2 = PrefabUtility.IsPartOfAnyPrefab(owner) && !isBoundGraphPrefabOverridden;
                 if ( case1 || case2 ) { EditorGUILayout.PropertyField(lockPrefabProp, EditorUtils.GetTempContent("Lock Prefab Graph Overrides")); }
             }

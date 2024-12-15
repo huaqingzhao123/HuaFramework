@@ -170,8 +170,8 @@ namespace NodeCanvas.Editor
             EditorApplication.playModeStateChanged += OnPlayModeChange;
 
 #if UNITY_2018_3_OR_NEWER
-            UnityEditor.Experimental.SceneManagement.PrefabStage.prefabStageClosing -= OnPrefabStageClosing;
-            UnityEditor.Experimental.SceneManagement.PrefabStage.prefabStageClosing += OnPrefabStageClosing;
+            UnityEditor.SceneManagement.PrefabStage.prefabStageClosing -= OnPrefabStageClosing;
+            UnityEditor.SceneManagement.PrefabStage.prefabStageClosing += OnPrefabStageClosing;
 #endif
 
             Selection.selectionChanged -= OnUnityObjectSelectionChange;
@@ -196,7 +196,7 @@ namespace NodeCanvas.Editor
             EditorApplication.playModeStateChanged -= OnPlayModeChange;
 
 #if UNITY_2018_3_OR_NEWER
-            UnityEditor.Experimental.SceneManagement.PrefabStage.prefabStageClosing -= OnPrefabStageClosing;
+            UnityEditor.SceneManagement.PrefabStage.prefabStageClosing -= OnPrefabStageClosing;
 #endif
 
             Selection.selectionChanged -= OnUnityObjectSelectionChange;
@@ -232,7 +232,7 @@ namespace NodeCanvas.Editor
         }
 
 #if UNITY_2018_3_OR_NEWER
-        void OnPrefabStageClosing(UnityEditor.Experimental.SceneManagement.PrefabStage stage) {
+        void OnPrefabStageClosing(UnityEditor.SceneManagement.PrefabStage stage) {
             //when exiting prefab state we are left with a floating graph instance which can creat confusion
             SetReferences(null, null, null);
         }

@@ -1,12 +1,11 @@
-﻿using Sirenix.OdinInspector;
+﻿#if ODIN_INSPECTOR
+using Sirenix.OdinInspector;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
-#if UnityEditor
 using Sirenix.OdinInspector.Editor;
-# endif
 namespace HuaFramework.Configs
 {
     public enum ConfigType
@@ -91,3 +90,4 @@ namespace HuaFramework.Configs
     }
 
 }
+#endif

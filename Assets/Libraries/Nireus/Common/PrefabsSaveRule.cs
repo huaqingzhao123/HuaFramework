@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEditor;
-using UnityEditor.Experimental.SceneManagement;
+
 using UnityEngine;
 
 namespace Nireus
@@ -14,11 +14,11 @@ namespace Nireus
         private static HashSet<string> _path_set = new HashSet<string>();
         static PrefabsSaveRuleListener()
         {
-            PrefabStage.prefabSaving += OnPrefabSaving;
-            PrefabStage.prefabStageOpened += OnPrefabOpened;
+            UnityEditor.SceneManagement.PrefabStage.prefabSaving += OnPrefabSaving;
+            UnityEditor.SceneManagement.PrefabStage.prefabStageOpened += OnPrefabOpened;
         }
 
-        private static void OnPrefabOpened(PrefabStage obj)
+        private static void OnPrefabOpened(UnityEditor.SceneManagement.PrefabStage obj)
         {
             _cur_prefab_path = obj.prefabAssetPath;
         }

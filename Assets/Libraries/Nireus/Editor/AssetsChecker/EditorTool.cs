@@ -75,25 +75,15 @@ namespace EditorCommon
                     return 4;
                 case TextureImporterFormat.ETC2_RGBA8: //	 ATC (ATITC) 8 bits/pixel compressed RGB texture format.
                     return 8;
-                case TextureImporterFormat.ASTC_RGB_4x4:
+                case TextureImporterFormat.ASTC_4x4:
                     return 8;
-                case TextureImporterFormat.ASTC_RGB_5x5: //	 ATC (ATITC) 4 bits/pixel compressed RGB texture format.
+                case TextureImporterFormat.ASTC_5x5: //	 ATC (ATITC) 4 bits/pixel compressed RGB texture format.
                     return 5.12f;
-                case TextureImporterFormat.ASTC_RGB_6x6: //	 ATC (ATITC) 4 bits/pixel compressed RGB texture format.
+                case TextureImporterFormat.ASTC_6x6: //	 ATC (ATITC) 4 bits/pixel compressed RGB texture format.
                     return 3.5f;
-                case TextureImporterFormat.ASTC_RGB_8x8: //	 ATC (ATITC) 4 bits/pixel compressed RGB texture format.
+                case TextureImporterFormat.ASTC_8x8: //	 ATC (ATITC) 4 bits/pixel compressed RGB texture format.
                     return 2;
-                case TextureImporterFormat.ASTC_RGB_10x10: //	 ATC (ATITC) 4 bits/pixel compressed RGB texture format.
-                    return 1.28f;
-                case TextureImporterFormat.ASTC_RGBA_4x4: //	 ATC (ATITC) 4 bits/pixel compressed RGB texture format.
-                    return 8;
-                case TextureImporterFormat.ASTC_RGBA_5x5: //	 ATC (ATITC) 4 bits/pixel compressed RGB texture format.
-                    return 5.12f;
-                case TextureImporterFormat.ASTC_RGBA_6x6: //	 ATC (ATITC) 4 bits/pixel compressed RGB texture format.
-                    return 3.55f;
-                case TextureImporterFormat.ASTC_RGBA_8x8: //	 ATC (ATITC) 4 bits/pixel compressed RGB texture format.
-                    return 2;
-                case TextureImporterFormat.ASTC_RGBA_10x10: //	 ATC (ATITC) 4 bits/pixel compressed RGB texture format.
+                case TextureImporterFormat.ASTC_10x10: //	 ATC (ATITC) 4 bits/pixel compressed RGB texture format.
                     return 1.28f;
 #pragma warning disable 0618
 

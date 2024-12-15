@@ -221,18 +221,12 @@ public class TextureData
                     IsIOSFormatError = true;
                 }
                 break;
-            case TextureImporterFormat.ASTC_RGBA_4x4:
-            case TextureImporterFormat.ASTC_RGBA_5x5:
-            case TextureImporterFormat.ASTC_RGBA_6x6:
-            case TextureImporterFormat.ASTC_RGBA_8x8:
-            case TextureImporterFormat.ASTC_RGBA_10x10:
-            case TextureImporterFormat.ASTC_RGBA_12x12:
-            case TextureImporterFormat.ASTC_RGB_4x4:
-            case TextureImporterFormat.ASTC_RGB_5x5:
-            case TextureImporterFormat.ASTC_RGB_6x6:
-            case TextureImporterFormat.ASTC_RGB_8x8:
-            case TextureImporterFormat.ASTC_RGB_10x10:
-            case TextureImporterFormat.ASTC_RGB_12x12:
+            case TextureImporterFormat.ASTC_4x4:
+            case TextureImporterFormat.ASTC_5x5:
+            case TextureImporterFormat.ASTC_6x6:
+            case TextureImporterFormat.ASTC_8x8:
+            case TextureImporterFormat.ASTC_10x10:
+            case TextureImporterFormat.ASTC_12x12:
                 break;
         }
     }

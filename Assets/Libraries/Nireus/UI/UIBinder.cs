@@ -8,7 +8,7 @@ using UnityEngine.UI;
 using System.Linq;
 #if UNITY_EDITOR
 using UnityEditor;
-using UnityEditor.Experimental.SceneManagement;
+
 #endif
 
 namespace Nireus
@@ -32,7 +32,7 @@ namespace Nireus
         [InitializeOnLoadMethod]
         static void PrefabStageListenter()
         {
-            PrefabStage.prefabSaving += OnPrefabSaved;
+            UnityEditor.SceneManagement.PrefabStage.prefabSaving += OnPrefabSaved;
         }
 
         private static void OnPrefabSaved(GameObject obj)
