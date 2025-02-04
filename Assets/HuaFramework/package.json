@@ -2,9 +2,9 @@
 	"name": "com.hua.huaframework",
 	"displayName": "HuaFramework",
 	"description": "A simple framework for unity",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"unity": "2022.3",
-	"author": "hua",
+	"author": "BeiDa",
 	"keywords": [
 		"Unity",
 		"Framework"
