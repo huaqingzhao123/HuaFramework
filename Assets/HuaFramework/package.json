@@ -1,12 +1,36 @@
 {
 	"name": "com.hua.huaframework",
-	"displayName": "HuaFramework",
-	"description": "A simple framework for unity",
-	"version": "0.0.3",
-	"unity": "2022.3",
-	"author": "BeiDa",
+	"displayName": "TByd HuaFramework",
+	"version": "0.0.4",
+	"unity": "2021.3",
+	"unityRelease": "8f1",
+	"description": "Unity CSV Config",
+	"license": "MIT",
 	"keywords": [
+		"TByd",
 		"Unity",
 		"Framework"
-	]
+	],
+	"author": {
+		"name": "R1ch, Inc.",
+		"email": "zhaoqing343@gmail.com"
+	},
+	"contributors": [
+		{
+			"name": "BeiDa",
+			"email": "zhaoqing343@gmail.com"
+		}
+	],
+	"category": "Module",
+	"homepage": "https://github.com/Tianyuyuyuyuyuyu/TByd/tree/master/TByd.Framework",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Tianyuyuyuyuyuyu/TByd/tree/master"
+	},
+	"bugs": {
+		"url": "https://github.com/Tianyuyuyuyuyuyu/TByd/issues"
+	},
+	"relatedPackages": {},
+	"dependencies": {},
+	"samples": []
 }
